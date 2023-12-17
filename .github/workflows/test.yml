@@ -29,3 +29,6 @@ jobs:
       - name: Sts GetCallerIdentity
         run: |
           aws sts get-caller-identity
+
+      - name: s3 list
+        run: aws s3 ls s3://s3athenabuckettesting
